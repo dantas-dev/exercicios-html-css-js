@@ -30,7 +30,7 @@ A iniciativa visa proporcionar um espaço para que iniciantes possam praticar e 
 | Javascript  | Eventos do DOM                     | 4                 | [Acessar](./perguntas/Javascript/Javascript-Eventos-do-DOM.md)  | [Acessar](./respostas/Javascript/Javascript-Eventos-do-DOM.md)  |
 
 
-> Total de 59 exercícios
+> Total de 60 exercícios
 
 # Contribua
 Gostaria de adicionar mais exercícios ou aprimorar alguns existentes? Sinta-se à vontade para enviar um Pull Request.
