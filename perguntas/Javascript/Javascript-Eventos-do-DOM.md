@@ -96,3 +96,49 @@
   ```bash
   O comportamento padrão do link foi cancelado. Você permanece na mesma página.
   ```
+
+  ### 4. Crie um arquivo `index.html`. Com o conteúdo abaixo:
+  ```html
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Exemplo de Evento de Hover</title>
+  <style>
+    #meuDiv {
+      width: 200px;
+      height: 200px;
+      background-color: #3498db;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="meuDiv"></div>
+
+  <script>
+    // Acesse o link pelo ID usando document.getElementById.
+    const meuDiv = document.getElementById('meuDiv');
+
+    // Adicione um ouvinte de evento de mouseover à div.
+    meuDiv.addEventListener('mouseover', function() {
+      meuDiv.style.backgroundColor = '#e74c3c';
+    });
+    
+    // Adicione um ouvinte de evento de mouseout à div.
+    meuDiv.addEventListener('mouseout', function() {
+      meuDiv.style.backgroundColor = '#3498db';
+    });
+  </script>
+</body>
+</html>
+
+  ```
+   Acesse o elemento  `<div>` usando qualquer um dos métodos ja aprendidos nos exercicios anteriores.
+  
+  “Escute” ao evento de `mouseover` da `<div>` usando `addEventListener` e defina a cor de background como `#e74c3c`.
+
+  “Escute” ao evento de `mouseout` da `<div>` usando `addEventListener` e defina a cor de background como `#3498db`.
+
+  Ao passar o mouse pela div a cor da `<div>` deve mudar a cor para vermelho, ao retirar o mouse da `<div>` a mesma deve ficar com cor azul.
+
+  ```

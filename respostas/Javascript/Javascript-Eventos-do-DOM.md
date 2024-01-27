@@ -83,3 +83,39 @@
     </body>
     </html>
   ```
+  
+### 4
+  ```html
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Exemplo de Evento de Hover</title>
+  <style>
+    #meuDiv {
+      width: 200px;
+      height: 200px;
+      background-color: #3498db;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="meuDiv"></div>
+
+  <script>
+    // Acesse o link pelo ID usando document.getElementById.
+    const meuDiv = document.getElementById('meuDiv');
+
+    // Adicione um ouvinte de evento de mouseover à div.
+    meuDiv.addEventListener('mouseover', function() {
+      meuDiv.style.backgroundColor = '#e74c3c';
+    });
+    
+    // Adicione um ouvinte de evento de mouseout à div.
+    meuDiv.addEventListener('mouseout', function() {
+      meuDiv.style.backgroundColor = '#3498db';
+    });
+  </script>
+</body>
+</html>
+  ```
