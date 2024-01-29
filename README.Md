@@ -27,10 +27,10 @@ A iniciativa visa proporcionar um espaço para que iniciantes possam praticar e 
 | Javascript  | Loops                              | 5                 | [Acessar](./perguntas/Javascript/Javascript-Loops.md)               | [Acessar](./respostas/Javascript/Javascript-Loops.md)               |
 | Javascript  | Nodejs                             | 5                 | [Acessar](./perguntas/Javascript/Nodejs.md)                         | [Acessar](./respostas/Javascript/Nodejs.md)                         |
 | Javascript  | Manipulação de DOM                 | 7                 | [Acessar](./perguntas/Javascript/Javascript-Manipulacao-de-DOM.md)  | [Acessar](./respostas/Javascript/Javascript-Manipulacao-de-DOM.md)  |
-| Javascript  | Eventos do DOM                     | 3                 | [Acessar](./perguntas/Javascript/Javascript-Manipulacao-de-DOM.md)  | [Acessar](./respostas/Javascript/Javascript-Manipulacao-de-DOM.md)  |
+| Javascript  | Eventos do DOM                     | 4                 | [Acessar](./perguntas/Javascript/Javascript-Eventos-do-DOM.md)  | [Acessar](./respostas/Javascript/Javascript-Eventos-do-DOM.md)  |
 
 
-> Total de 59 exercícios
+> Total de 60 exercícios
 
 # Contribua
 Gostaria de adicionar mais exercícios ou aprimorar alguns existentes? Sinta-se à vontade para enviar um Pull Request.
